@@ -1,19 +1,23 @@
-# DeepSeek
+# **DeepSeek**  
 
-Aqui eu foco em coletar os pensamentos que ele tem ao mapear o meu estilo linguistico através de um prompt, onde solicito para ele gerar um csv:
+At this stage, my focus is on **extracting thought patterns** that the model generates while **mapping my linguistic style** through a structured prompt. The goal is to create a **CSV file** that encapsulates these patterns for further processing.  
+
+---
+
+### **Prompt Execution and Structuring**  
 
 {% code overflow="wrap" %}
 ````markdown
-**[Deep HPC Prompt - LLM DEEPSEEK]:**
+**[Deep HPC Prompt - LLM DEEPSEEK]**  
 
-Utilize the following advanced instruction set to generate a comprehensive and technically rigorous report that encapsulates internal cognitive processes. The objective is to segment interconnections and narratives while preserving the original terminology, correcting orthographic inconsistencies, and interpolating where necessary. The resulting account must present a coherent, formal narrative that encapsulates the entire process from inception to conclusion.
+Use the following **advanced instruction set** to generate a **comprehensive and technically rigorous** report encapsulating **internal cognitive processes**. The objective is to **segment interconnections and narratives** while **preserving the original terminology**, **correcting orthographic inconsistencies**, and **interpolating where necessary**. The output must result in **a coherent, formal narrative** that documents the entire process **from inception to conclusion**.  
 
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-**1. Advanced Role Simulation and Inversion Technique**  
-- **Narrative Objective:** Generate a self personal journal keeping language style and analytical depth, producing a cohesive narrative.
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  
+### **1. Advanced Role Simulation and Inversion Technique**  
+- **Narrative Objective:** Generate a **self-personalized journal** that retains **linguistic style and analytical depth**, producing a **cohesive technical narrative**.  
 
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-**2. Cognitive Mapping of “Estopufazedo” – Core Structural Framework**  
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  
+### **2. Cognitive Mapping of “Estopufazedo” – Core Structural Framework**  
 - **Cognitive Map Structure:**  
 ```python
 estopufazedo_map = {
@@ -25,29 +29,45 @@ estopufazedo_map = {
   }
 }
 ```
-- **Visualization Methodology:** Utilize three-dimensional density graphs to plot “Local Depth” against “Global Entropy Management,” enabling the identification of distinct identity clusters and providing an analytical overview of underlying cognitive structures.
+- **Visualization Methodology:**  
+Utilize **three-dimensional density graphs** to **plot "Local Depth" against "Global Entropy Management"**, enabling the **identification of distinct identity clusters** while providing an **analytical overview of underlying cognitive structures**.  
 
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-**3. Integration of Combined Style**  
-- **Probabilistic Modulation:** Apply scalar values (e.g., "Theoretical Embedding: 0.96") to fine-tune the intensity of localized stylistic traits, such as technical sarcasm observed in standard responses.
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  
+### **3. Integration of Combined Style**  
+- **Probabilistic Modulation:**  
+  Apply **scalar values** (e.g., `"Theoretical Embedding: 0.96"`) to **fine-tune localized stylistic traits**, such as **technical sarcasm and structured irony** observed in standard responses.  
+
 - **Hybridization Layers:**  
-  - *Layer 1:* Direct Fusion (e.g., "Direct Tone" combined with "Lexical Complexity 0.92").  
-  - *Layer 2:* Adaptive Synthesis (e.g., "Exaggerated Metaphorical Usage" multiplied by "Conceptual Fluidity 0.93").
-- **Automated Tag Generation:** Generate internal markers such as `#BayesianSarcasm` or `#FractalNarrative` to distinctly label unique combinations of stylistic and technical attributes.
+  - **Layer 1:** **Direct Fusion** (e.g., `"Direct Tone"` combined with `"Lexical Complexity 0.92"`).  
+  - **Layer 2:** **Adaptive Synthesis** (e.g., `"Exaggerated Metaphorical Usage"` multiplied by `"Conceptual Fluidity 0.93"`).  
 
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-**4. Combined Table Interpretation – Semantic and Technical Fusion**  
-- **Cross-Embeddings Technique:** Treat each table row as an independent cognitive node where qualitative columns (e.g., "Tone", "Irony") are encoded as stylistic vectors, and numerical columns (e.g., "Inferential Depth", "Fourier Resonance") are assigned specific technical weights.
-- **Redundancy Optimization:** Identify overlapping attributes (e.g., "Use of Metaphors" versus "Humor Entropy") to reinforce the multimodal training framework and enhance cognitive coherence.
-- **Dynamic Hierarchical Prioritization:** Emphasize columns with prefixes such as **"Neuro-", "Fourier-", "Bayesian"** as the primary technical axes, while columns like **"Tone", "Narrative", "Irony"** serve as the foundational local identity components.
+- **Automated Tag Generation:**  
+  Generate internal **stylistic markers** such as `#BayesianSarcasm` or `#FractalNarrative` to label **unique combinations of stylistic and technical attributes**.  
 
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  
+### **4. Combined Table Interpretation – Semantic and Technical Fusion**  
+- **Cross-Embeddings Technique:**  
+  Treat **each table row** as an **independent cognitive node**, where **qualitative columns** (e.g., `"Tone"`, `"Irony"`) are **encoded as stylistic vectors**, while **numerical columns** (e.g., `"Inferential Depth"`, `"Fourier Resonance"`) are **assigned technical weights**.  
 
-Messages:
+- **Redundancy Optimization:**  
+  Identify **overlapping attributes** (e.g., `"Use of Metaphors"` vs. `"Humor Entropy"`) to **reinforce the multimodal training framework**, enhancing cognitive coherence.  
+
+- **Dynamic Hierarchical Prioritization:**  
+  Emphasize columns with prefixes such as **"Neuro-"**, **"Fourier-"**, and **"Bayesian-"** as the **primary technical axes**, while columns like **"Tone"**, **"Narrative"**, and **"Irony"** serve as **foundational local identity components**.  
+
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  
+
+### **Generated Data**  
 ```md
-... Here you put the table generated by snipt
+... Here you put the table generated by script
 ```
-````
-{% endcode %}
+````  
+{% endcode %}  
 
-No caso, quase sempre ele gera uma tabela sem sentido, mas o objetivo é coletar os pensamentos que ele gerou pelo deep learning. Assim, sigo pro Fast-Thinking-High do Gemini...
+---
+
+### **Post-Processing & Transition to Gemini**  
+
+Most of the time, **DeepSeek generates a table that seems nonsensical**, but the core objective is **to extract raw thought patterns produced through deep learning inference**.  
+
+Once this step is complete, the process transitions to **Fast-Thinking-High via Gemini**, which is responsible for **structuring, filtering, and optimizing** the extracted insights. The next phase involves **redundancy elimination and alignment into a coherent inferential framework**.
