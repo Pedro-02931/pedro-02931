@@ -24,9 +24,11 @@
 
 * [C](code/c/README.md)
   * [Configurando o Ambiente](code/c/configurando-o-ambiente/README.md)
+    * [Uso de Inteligência Artificial](code/c/configurando-o-ambiente/uso-de-inteligencia-artificial.md)
+    * [Matemática como Linguagem universar](code/c/configurando-o-ambiente/matematica-como-linguagem-universar.md)
     * [Meu Ambiente](code/c/configurando-o-ambiente/meu-ambiente/README.md)
       * [Linguagem](code/c/configurando-o-ambiente/meu-ambiente/linguagem.md)
       * [IDE](code/c/configurando-o-ambiente/meu-ambiente/ide.md)
-      * [Versionamento](code/c/configurando-o-ambiente/meu-ambiente/versionamento.md)
+      * [Segmentação](code/c/configurando-o-ambiente/meu-ambiente/segmentacao.md)
       * [Apps Usados](code/c/configurando-o-ambiente/meu-ambiente/apps-usados.md)
     * [O que quero Fazer?](code/c/configurando-o-ambiente/o-que-quero-fazer.md)

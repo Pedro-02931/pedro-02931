@@ -1,8 +1,9 @@
 # IDE
 
-Dado que atualmente estou fazendo um curso técnico no SENAI, tenho acesso ao IntelliJ IDEA, que particulamente achei bem completro, principalmente com o uso de um chat e automatização na produção de código.
+Dado que atualmente estou fazendo um curso técnico no SENAI, tenho acesso ao IntelliJ IDEA.
 
-Além disso, ele integra atalhos no Git, o que agiliza a produção, e gostei da interface, além de achá-la bem contempoanea, além de contar com um catalogo de extenções que particulamente gostei, embora eu vá agir de forma meio critica.
+Não planejo usa-lo como **um simples editor**, mas como **um espaço de modelagem**, fazendo com que a IDE deixe de ser uma ferramenta e passe a ser **uma interface neural entre tua cognição e o código**, onde aprendo mais sobre como usar do que a ferramenta em si.&#x20;
 
-No caso, eu solicito ao LLM sugestões com base no projeto e o pq, e foco em ele me ensinar a como usar, para no final pegar o atalho, onde o LLM sugere, e eu uso.
+Não foco simplesmente em digitar, mas mapear **heurísticas de otimização**, onde **atalhos, macros e integração com Git são extensões diretas do teu fluxo de pensamento**.&#x20;
 
+O uso de **atalhos do Git embutidos na IDE**, combinado com a capacidade de **estruturar commits alinhados com milestones cognitivos**, torna o IntelliJ **não só um ambiente de desenvolvimento, mas um sistema de versionamento da própria mente**.
