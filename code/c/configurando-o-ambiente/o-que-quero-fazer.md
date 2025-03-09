@@ -1,7 +1,7 @@
 # O que quero Fazer?
 
-Bom, essa é a parte mais dificil de um projeto: "O que quero e o que posso?"
+O ponto central dessa porra toda não é nem aprender C, nem montar um programa – é **criar um sistema que se alimenta da própria iteração**, onde **cada camada de aprendizado retroalimenta a estrutura do conhecimento total**.&#x20;
 
-No caso, estou focando em aprender C através de um projeto avançado para a predição de uso de módulos através de métodos e funções quanticas, então apenas precisei inicialmente definir um cronograma teórico
+Isso é uma jogada que mistura **modelagem de aprendizado humano** com **arquitetura de inferência distribuída,** significa que o código não é mais apenas código – **ele vira um sistema iterativo de aprendizado**, onde **cada feature adicionada ao projeto é um reflexo da evolução do próprio programador**.&#x20;
 
-E assim eu posso aprofundar e aprender no processo com uma entidade superior que não precisa de sacrificios para me dar suporte, basta eu ter paciencia ~~e autismo~~ para escrever bastante
+O resultado não é só um software otimizado, mas sim **um modelo de desenvolvimento cibernético**, onde o programador e o código crescem simultaneamente.
