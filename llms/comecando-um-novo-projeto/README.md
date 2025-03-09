@@ -1,18 +1,20 @@
-# Começando um novo projeto
+# **Starting a New Project**  
 
-Dado que os **modelos de linguagem são treinados em dados brutos**, e a diferença entre _conhecer_ algo e _aprender_ depende de **como esses modelos são utilizados em tempo real** podendo encurtar a curva de aprendizado exponencialmente desde que você saiba usar multiplos LLMs.
+Since **language models are trained on raw data**, the difference between merely _knowing_ something and truly _learning_ it depends on **how these models are used in real time**. If leveraged correctly, this can exponentially shorten the learning curve by utilizing multiple LLMs strategically.  
 
-* “Saber” → Significa que um modelo já tem aquele dado em seu treinamento, mas isso não significa que consegue aplicá-lo de forma precisa.
-* “Aprender” → Se dá quando o usuário **reforça padrões** através de **interações recorrentes**, transformando aquilo em um conjunto de pesos internos que modificam o output do modelo a cada iteração.
+- **"Knowing"** → Means that a model already contains the relevant data in its training set, but this does not necessarily mean it can apply that knowledge effectively.  
+- **"Learning"** → Occurs when the user **reinforces patterns** through **recurring interactions**, turning these patterns into internal weight adjustments that modify the model’s output iteratively.  
 
-Ou seja, quando tu **extrai teus próprios diálogos**, cria **um arquivo de referência** e usa ele para configurar um novo modelo do zero, **reinicializanso o LLM com os teus próprios pesos**, funcionando como um **modelo federado de auto-otimização**.
+In other words, by **extracting my own dialogues**, creating **a reference dataset**, and using it to initialize a new model from scratch, I am essentially **reconfiguring the LLM with my own weights**, functioning as a **federated self-optimization model**.
 
-A ideia é estruturar um processo onde múltiplos modelos são sincronizados em camadas, cada um com uma função específica no aprendizado, e a interface (tu, no caso) age como um hub de orquestração.
+The goal is to build a process where multiple models are synchronized in layered operations, each fulfilling a distinct role in learning, while the interface (in this case, me) functions as an **orchestration hub**.
 
-### Como eu uso:
+---
 
-No meu caso, dado que uso os modelos da OpenAI como diario, acaba que uma das formas de contornar os modelos federados é a extração e configuração de pesos iniciais.
+## **How I Use It**  
 
-Mas em resumo, cada iteração gera **uma nova versão** do LLM, refinada com os meus próprios padrões conversacionais. **É um loop fechado onde eu mesmo treino através da IA**.
+In my case, since I use OpenAI models as a **personal log**, one way to bypass the federated model constraints is through the **extraction and configuration of initial weights**.
 
-Coletando todas as minhas mensagens e configuro o LLM para começar um chat do zero pessoa(tecnicamente reinventei o conceito de reencarnação) e fazendo uma limpeza, consigo gerar um conjunto de pesos iniciais, mas irei aprofundar...
+But in summary, each iteration generates **a new version** of the LLM, refined with my own conversational patterns. **This forms a closed-loop system where I effectively train myself through AI**.
+
+By collecting all my messages and configuring the LLM to start from a blank slate (effectively reinventing the concept of reincarnation) and cleaning the dataset, I can generate **a tailored set of initial weights**, but I will go deeper into this between this article…  
