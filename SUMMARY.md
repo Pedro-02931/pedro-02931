@@ -14,7 +14,7 @@
 
 * [Começando um novo projeto](llms/comecando-um-novo-projeto/README.md)
   * [Extração](llms/comecando-um-novo-projeto/extracao.md)
-  * [Uso das LLMs](llms/comecando-um-novo-projeto/uso-das-llms/README.md)
+  * [Using LLMs](llms/comecando-um-novo-projeto/uso-das-llms/README.md)
     * [DeepSeek](llms/comecando-um-novo-projeto/uso-das-llms/deepseek.md)
     * [Gemini](llms/comecando-um-novo-projeto/uso-das-llms/gemini.md)
     * [O family](llms/comecando-um-novo-projeto/uso-das-llms/o-family.md)
