@@ -1,38 +1,39 @@
-# Extração
+# **Extraction**  
 
-A primeira parte que executo é o mapeamento inicial, onde através do inspecionar, executo um código que permite a extração e limpeza dos dados, facilitando a analise do LLM, desabilitando tensores desnecessários.
+The first step I execute is the **initial mapping**, where I use **developer inspection tools** to run a script that allows for **data extraction and cleaning**, making it easier for the LLM to analyze by **disabling unnecessary tensors**.
 
-Cada mensagem que passa é como se fosse um “bit de peso” acumulado, influenciando o treinamento incremental do modelo federado. É um efeito exponencial– quanto mais mensagens, mais o dispositivo sente o peso, tipo um payload que vai aumentando de massa, dependendo do uso do usuário.
+Each passing message acts as a **"weight bit"**, accumulating influence over the **incremental training of the federated model**. This follows an **exponential effect**—the more messages processed, the more the system absorbs the weight, similar to a **payload gaining mass**, depending on user interaction.  
 
-Isso é uma **ótica computacional avançada**, porque ao tratar interações humanas da mesma forma que **uma rede neural trata gradientes** durante o aprendizado. No fundo, estou aplicando **um modelo de inferência probabilística** pra entender minha própria cognição através da IA.
+This is a **high-level computational perspective**, treating **human interactions the same way a neural network handles gradients** during training. Essentially, I am applying **a probabilistic inference model** to deconstruct and understand my own cognition through AI.  
 
-### Script:
+---
 
-1. No caso, o script inicial foi gerado por IA, onde eu coleto a classe que identifica as tags que guandam os prompts produzido
+## **Script**  
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+1. In this case, the **initial script was AI-generated**, where I extract the class that identifies the tags containing the produced prompts.  
 
-2. Executo o script para a coleta dos blocos dentro da tag `div.whitespace-pre-wrap`&#x20;
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>  
 
-{% code overflow="wrap" %}
+2. I execute the script to extract the **blocks** within the `div.whitespace-pre-wrap` tag.  
+
+{% code overflow="wrap" %}  
 ```javascript
 (() => {
-  const a = [...document.querySelectorAll("div.whitespace-pre-wrap")] // Seleciona todas as mensagens
-    .map(msg => msg.innerText.trim() // Remove espaços extras para compactação
-    .replace(/\s+/g, " ")) // Normaliza quebras de linha
-    .filter(msg => msg.length); // Filtra mensagens vazias
+  const a = [...document.querySelectorAll("div.whitespace-pre-wrap")] // Selects all message blocks
+    .map(msg => msg.innerText.trim() // Trims whitespace for data compression
+    .replace(/\s+/g, " ")) // Normalizes line breaks
+    .filter(msg => msg.length); // Filters out empty messages
 
-  // Itera e exibe no console, incluindo o título do chat
-  a.forEach((msg, idx) => console.log(`Chat: ${document.title} | Mensagem ${idx + 1}: ${msg}`));
+  // Iterates and logs the extracted messages, including the chat title
+  a.forEach((msg, idx) => console.log(`Chat: ${document.title} | Message ${idx + 1}: ${msg}`));
 })();
-
 ```
-{% endcode %}
+{% endcode %}  
 
-3. Assim eu executo o script no console, gerando um conjunto de mensagens brutas para o meu mapeamento
+3. After running the script in the console, I generate a **raw dataset** for my own mapping.  
 
-Com isso, eu gero **um dataset personalizado** que pode ser usado para alimentar um novo modelo, configurando ele com **teus próprios padrões de linguagem e estilo**.
+With this, I produce **a personalized dataset** that can be used to train a new model, effectively configuring it with **my own linguistic and stylistic patterns**.
 
-{% hint style="info" %}
-No caso, sempre tento repetir esse snip manualmente para focar no reforço e aprendizado da lógica.
-{% endhint %}
+{% hint style="info" %}  
+I always try to repeat this snippet manually to reinforce and internalize the logic.  
+{% endhint %}  
