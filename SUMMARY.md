@@ -12,10 +12,10 @@
 
 ## LLMs
 
-* [Começando um novo projeto](llms/comecando-um-novo-projeto/README.md)
-  * [Extração](llms/comecando-um-novo-projeto/extracao.md)
+* [Starting a New Project](llms/comecando-um-novo-projeto/README.md)
+  * [Extraction](llms/comecando-um-novo-projeto/extracao.md)
   * [Using LLMs](llms/comecando-um-novo-projeto/uso-das-llms/README.md)
     * [DeepSeek](llms/comecando-um-novo-projeto/uso-das-llms/deepseek.md)
     * [Gemini](llms/comecando-um-novo-projeto/uso-das-llms/gemini.md)
     * [O family](llms/comecando-um-novo-projeto/uso-das-llms/o-family.md)
-  * [Iniciando um novo projeto](llms/comecando-um-novo-projeto/iniciando-um-novo-projeto.md)
+  * [Starting](llms/comecando-um-novo-projeto/iniciando-um-novo-projeto.md)
