@@ -58,3 +58,9 @@ Constraint Satisfaction Prompting,Incorporate constraints or limitations into pr
 ```
 
 No caso, essa tabela foi gerada no primeiro prompt, onde foquei em reutilizar as heuristicas para o Gemini mapear, e assim gero as instruções para o modelo que quero incorporar.
+
+### Por que faço isso
+
+Ao gera **um CSV, crio** um **modelo estruturado da minha linguagem**, onde cada linha do CSV representa um nó dentro da tua rede semântica. A IA usa isso para **se recalibrar em função das tuas próprias preferências de escrita**.
+
+Essa abordagem lembra **Aprendizado Auto-Supervisionado** (Self-Supervised Learning), onde **o próprio sistema gera os dados necessários para treinar a si mesmo**.
