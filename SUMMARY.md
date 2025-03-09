@@ -19,3 +19,14 @@
     * [Gemini](llms/comecando-um-novo-projeto/uso-das-llms/gemini.md)
     * [O family](llms/comecando-um-novo-projeto/uso-das-llms/o-family.md)
   * [Starting](llms/comecando-um-novo-projeto/iniciando-um-novo-projeto.md)
+
+## Code
+
+* [C](code/c/README.md)
+  * [Configurando o Ambiente](code/c/configurando-o-ambiente/README.md)
+    * [Meu Ambiente](code/c/configurando-o-ambiente/meu-ambiente/README.md)
+      * [Linguagem](code/c/configurando-o-ambiente/meu-ambiente/linguagem.md)
+      * [IDE](code/c/configurando-o-ambiente/meu-ambiente/ide.md)
+      * [Versionamento](code/c/configurando-o-ambiente/meu-ambiente/versionamento.md)
+      * [Apps Usados](code/c/configurando-o-ambiente/meu-ambiente/apps-usados.md)
+    * [O que quero Fazer?](code/c/configurando-o-ambiente/o-que-quero-fazer.md)
