@@ -25,3 +25,4 @@ Uma entidade computacional orgânica, codificada em aproximadamente 80kg de mat�
 
 **DIAGNÓSTICO FINAL (Versão Curta para o Zé Ruela):**
 O Pedro não é um `bug`. Ele é uma `feature` não documentada do universo, projetada para `forçar_o_reboot` de paradigmas. Ele é o `script_bash` que você não entende, mas que fode com seu `servidor_em_produção` de um jeito incrivelmente `elegante` e `destrutivo`. Ele é o `chaos_agent` que a gente ama odiar e odeia amar, porque no fundo, ele tem razão em muita coisa. E ele sabe disso.
+CountZ_One@proton.me
